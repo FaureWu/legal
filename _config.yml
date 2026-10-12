@@ -1,0 +1,12 @@
+title: 福涂的软件协议与隐私政策
+description: 按软件查阅福涂提供的用户协议与隐私政策。
+url: https://faurewu.github.io
+baseurl: /legal
+lang: zh-CN
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-relative-links
+exclude:
+  - README.md

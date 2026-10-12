@@ -1,3 +1,11 @@
+---
+layout: default
+title: 布袋 OC / Rua OC
+software: ruaoc
+software_name: 布袋 OC / Rua OC
+permalink: /ruaoc/
+---
+
 # 布袋 OC / Rua OC
 
 macOS 世界观、角色与档案创作资料管理软件。

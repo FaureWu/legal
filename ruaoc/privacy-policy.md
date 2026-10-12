@@ -1,3 +1,11 @@
+---
+layout: default
+title: 布袋 OC 隐私政策
+software: ruaoc
+software_name: 布袋 OC / Rua OC
+permalink: /ruaoc/privacy-policy/
+---
+
 # 布袋 OC（Rua OC）隐私政策
 
 版本：1.0  
@@ -114,7 +122,7 @@ iCloud 的实际储存位置、可用性及服务规则取决于账号地区和 
 
 ## 七、外部链接与 GitHub 托管
 
-“设置 → 关于”中的用户协议和隐私政策入口会调用系统默认浏览器打开 GitHub 托管页面，不在软件内嵌入网页。GitHub 及您的浏览器可能按各自规则处理 IP 地址、访问记录、Cookie 或登录状态；打开链接不会使本软件把创作资料或诊断文件一并发送到 GitHub。
+“设置 → 关于”中的用户协议和隐私政策入口会调用系统默认浏览器打开 GitHub Pages 托管的独立网页，不在软件内嵌入网页。本协议网站不嵌入广告、访问统计或第三方脚本；GitHub 及您的浏览器可能按各自规则处理 IP 地址、访问记录或浏览器相关信息。打开链接不会使本软件把创作资料或诊断文件一并发送到 GitHub。
 
 协议公开托管于 [FaureWu/legal](https://github.com/FaureWu/legal/tree/main/ruaoc)。GitHub 的处理规则见 [GitHub 隐私声明](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)。请不要在公开仓库提交私人资料、创作内容或诊断附件；需要私密反馈时请使用作者邮箱。
 
@@ -127,4 +135,4 @@ iCloud 的实际储存位置、可用性及服务规则取决于账号地区和 
 - 作者／本软件提供者：福涂
 - 隐私联系邮箱：[faurewu@icloud.com](mailto:faurewu@icloud.com)
 - 用户协议：[布袋 OC 用户协议](user-agreement.md)
-- 政策地址：[布袋 OC 隐私政策](https://github.com/FaureWu/legal/blob/main/ruaoc/privacy-policy.md)
+- 政策地址：[布袋 OC 隐私政策](https://faurewu.github.io/legal/ruaoc/privacy-policy/)

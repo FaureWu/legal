@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="color-scheme" content="light dark">
+  <title>{{ page.title | escape }} · 福涂</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/legal.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#content">跳转到正文</a>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">福涂<span>软件协议与隐私政策</span></a>
+    <a class="contact" href="mailto:faurewu@icloud.com">联系作者</a>
+  </header>
+  <main id="content" class="document" tabindex="-1">
+    {% if page.software %}
+    <nav class="document-nav" aria-label="{{ page.software_name | escape }} 的协议">
+      {% assign overview = '/' | append: page.software | append: '/' %}
+      {% assign agreement = overview | append: 'user-agreement/' %}
+      {% assign privacy = overview | append: 'privacy-policy/' %}
+      <a href="{{ overview | relative_url }}"{% if page.url == overview %} aria-current="page"{% endif %}>{{ page.software_name }}</a>
+      <a href="{{ agreement | relative_url }}"{% if page.url == agreement %} aria-current="page"{% endif %}>用户协议</a>
+      <a href="{{ privacy | relative_url }}"{% if page.url == privacy %} aria-current="page"{% endif %}>隐私政策</a>
+    </nav>
+    {% endif %}
+    <article>{{ content }}</article>
+  </main>
+  <footer class="site-footer">
+    <span>作者：福涂</span>
+    <a href="mailto:faurewu@icloud.com">faurewu@icloud.com</a>
+  </footer>
+</body>
+</html>
