@@ -11,6 +11,6 @@
 
 应用外链使用独立网页地址：[用户协议](https://faurewu.github.io/legal/ruaoc/user-agreement/) · [隐私政策](https://faurewu.github.io/legal/ruaoc/privacy-policy/)。Markdown 正文为维护源，网页使用同一正文生成。
 
-作者：福涂。联系邮箱：[faurewu@icloud.com](mailto:faurewu@icloud.com)。
+提供者：吴贵福（笔名：福涂）。联系邮箱：[faurewu@icloud.com](mailto:faurewu@icloud.com)。
 
 如需咨询个人信息或发送诊断信息，请使用邮箱，避免在公开的 GitHub 页面提交个人资料、创作内容或诊断附件。
