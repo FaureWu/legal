@@ -1,35 +1,47 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="{{ page.lang | default: 'zh-CN' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="description" content="{{ page.title | escape }}">
   <meta name="color-scheme" content="light dark">
-  <title>{{ page.title | escape }} · 福涂</title>
+  <title>{{ page.title | escape }} · {% if page.lang == 'en' %}Futu{% else %}福涂{% endif %}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="stylesheet" href="{{ '/assets/legal.css' | relative_url }}">
 </head>
 <body>
-  <a class="skip-link" href="#content">跳转到正文</a>
+  {% assign english = false %}{% if page.lang == 'en' %}{% assign english = true %}{% endif %}
+  <a class="skip-link" href="#content">{% if english %}Skip to content{% else %}跳转到正文{% endif %}</a>
   <header class="site-header">
-    <a class="brand" href="{{ '/' | relative_url }}">福涂<span>软件协议与隐私政策</span></a>
-    <a class="contact" href="mailto:faurewu@icloud.com">联系作者</a>
+    <a class="brand" href="{{ '/' | relative_url }}">{% if english %}Futu<span>Software agreements and privacy policies</span>{% else %}福涂<span>软件协议与隐私政策</span>{% endif %}</a>
+    <a class="contact" href="mailto:faurewu@icloud.com">{% if english %}Contact the author{% else %}联系作者{% endif %}</a>
   </header>
   <main id="content" class="document" tabindex="-1">
     {% if page.software %}
-    <nav class="document-nav" aria-label="{{ page.software_name | escape }} 的协议">
+    <nav class="document-nav" aria-label="{% if english %}Legal documents{% else %}软件协议{% endif %}">
       {% assign overview = '/' | append: page.software | append: '/' %}
-      {% assign agreement = overview | append: 'user-agreement/' %}
-      {% assign privacy = overview | append: 'privacy-policy/' %}
-      <a href="{{ overview | relative_url }}"{% if page.url == overview %} aria-current="page"{% endif %}>{{ page.software_name }}</a>
-      <a href="{{ agreement | relative_url }}"{% if page.url == agreement %} aria-current="page"{% endif %}>用户协议</a>
-      <a href="{{ privacy | relative_url }}"{% if page.url == privacy %} aria-current="page"{% endif %}>隐私政策</a>
+      {% assign language_root = overview %}
+      {% if english %}{% assign language_root = overview | append: 'en/' %}{% endif %}
+      {% assign agreement = language_root | append: 'user-agreement/' %}
+      {% assign privacy = language_root | append: 'privacy-policy/' %}
+      <a href="{{ overview | relative_url }}">{{ page.software_name }}</a>
+      <a href="{{ agreement | relative_url }}"{% if page.url == agreement %} aria-current="page"{% endif %}>{% if english %}User Agreement{% else %}用户协议{% endif %}</a>
+      <a href="{{ privacy | relative_url }}"{% if page.url == privacy %} aria-current="page"{% endif %}>{% if english %}Privacy Policy{% else %}隐私政策{% endif %}</a>
+      {% if page.url contains 'user-agreement' or page.url contains 'privacy-policy' %}
+        {% if english %}
+          {% assign alternate = page.url | replace: '/en/', '/' %}
+          <a href="{{ alternate | relative_url }}" lang="zh-CN" hreflang="zh-CN">简体中文</a>
+        {% else %}
+          {% assign alternate = page.url | replace: '/user-agreement/', '/en/user-agreement/' | replace: '/privacy-policy/', '/en/privacy-policy/' %}
+          <a href="{{ alternate | relative_url }}" lang="en" hreflang="en">English</a>
+        {% endif %}
+      {% endif %}
     </nav>
     {% endif %}
     <article>{{ content }}</article>
   </main>
   <footer class="site-footer">
-    <span>提供者：吴贵福（笔名：福涂）</span>
+    <span>{% if english %}Provider: Wu Guifu (pen name: Futu){% else %}提供者：吴贵福（笔名：福涂）{% endif %}</span>
     <a href="mailto:faurewu@icloud.com">faurewu@icloud.com</a>
   </footer>
 </body>

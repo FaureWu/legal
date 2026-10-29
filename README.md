@@ -8,6 +8,8 @@
 
 - [用户协议](ruaoc/user-agreement.md)
 - [隐私政策](ruaoc/privacy-policy.md)
+- [User Agreement (English)](ruaoc/en/user-agreement.md)
+- [Privacy Policy (English)](ruaoc/en/privacy-policy.md)
 
 应用外链使用独立网页地址：[用户协议](https://faurewu.github.io/legal/ruaoc/user-agreement/) · [隐私政策](https://faurewu.github.io/legal/ruaoc/privacy-policy/)。Markdown 正文为维护源，网页使用同一正文生成。
 
