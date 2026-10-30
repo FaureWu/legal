@@ -1,18 +1,14 @@
 ---
-layout: default
-title: 布袋 OC 用户协议
+layout: legal-document
+title: 用户协议 - 布袋 OC / Rua OC
 software: ruaoc
 software_name: 布袋 OC / Rua OC
 permalink: /ruaoc/user-agreement/
 ---
 
-# 布袋 OC（Rua OC）用户协议
+# 用户协议 - 布袋 OC / Rua OC
 
-版本：1.0
-
-更新日期：2026 年 10 月 29 日
-
-生效日期：2026 年 10 月 29 日
+*版本：1.0 · 更新及生效日期：2026 年 10 月 29 日*
 
 本协议适用于吴贵福（笔名：福涂，以下简称“作者”）提供的 macOS 软件“布袋 OC”，英文名称为“Rua OC”（以下简称“本软件”）。联系邮箱为 [faurewu@icloud.com](mailto:faurewu@icloud.com)。
 

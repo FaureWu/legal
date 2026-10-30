@@ -1,5 +1,5 @@
 ---
-layout: privacy-policy
+layout: legal-document
 title: 隐私政策 - 布袋 OC / Rua OC
 lang: zh-CN
 software: ruaoc
@@ -9,13 +9,13 @@ permalink: /ruaoc/privacy-policy/
 
 # 隐私政策 - 布袋 OC / Rua OC
 
-*版本：1.0（第一版） · 更新及生效日期：2026 年 10 月 30 日*
+*版本：1.0 · 更新及生效日期：2026 年 10 月 30 日*
 
 ## 1. 简介
 
 本隐私政策说明吴贵福（GuiFu Wu，笔名：福涂，以下简称“我们”）提供的 macOS 应用“布袋 OC / Rua OC”（以下简称“本应用”）如何处理和保护信息。联系邮箱：[faurewu@icloud.com](mailto:faurewu@icloud.com)。
 
-Rua OC 是用于创建和管理世界观、角色、档案、时间线和关系图的创作工具，提供 14 天免费试用及一次性买断。本应用无需注册独立账号，核心创作和图片处理在本机完成，iCloud 同步由您选择开启。
+Rua OC 是一款帮助您整理创作内容、塑造角色的 macOS 应用，提供 14 天免费试用及一次性买断。本应用无需注册独立账号，核心创作和图片处理在本机完成，iCloud 同步由您选择开启。
 
 **创作资料默认保存在本机；开启 iCloud 同步后，所选资料及必要关联内容会传输至当前 iCloud 账号的私有数据库。我们不通过应用将这些资料上传至开发者自建服务器。** 购买、恢复购买和检查更新会使用 Apple 服务，不能据此将本应用理解为完全不联网或完全不处理个人信息。
 

@@ -1,19 +1,15 @@
 ---
-layout: default
-title: Rua OC User Agreement
+layout: legal-document
+title: User Agreement - Rua OC
 software: ruaoc
 software_name: Rua OC
 lang: en
 permalink: /ruaoc/en/user-agreement/
 ---
 
-# Rua OC User Agreement
+# User Agreement - Rua OC
 
-Version: 1.0
-
-Last updated: October 29, 2026
-
-Effective date: October 29, 2026
+*Version: 1.0 · Updated and effective: October 29, 2026*
 
 This agreement applies to the macOS app “布袋 OC”, known in English as “Rua OC” (the “App”), provided by Wu Guifu (吴贵福), pen name Futu (福涂), referred to as the “Author”. Contact: [faurewu@icloud.com](mailto:faurewu@icloud.com).
 
