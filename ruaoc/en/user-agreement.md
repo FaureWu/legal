@@ -9,9 +9,9 @@ permalink: /ruaoc/en/user-agreement/
 
 # User Agreement - Rua OC
 
-*Version: 1.0 · Updated and effective: October 29, 2026*
+*Version: 1.0 · Updated and effective: October 30, 2026*
 
-This agreement applies to the macOS app “布袋 OC”, known in English as “Rua OC” (the “App”), provided by Wu Guifu (吴贵福), pen name Futu (福涂), referred to as the “Author”. Contact: [faurewu@icloud.com](mailto:faurewu@icloud.com).
+This agreement applies to the macOS app “布袋 OC”, known in English as “Rua OC” (the “App”), provided by GuiFu Wu (吴贵福), pen name Futu (福涂), referred to as the “Author”. Contact: [faurewu@icloud.com](mailto:faurewu@icloud.com).
 
 Please read this agreement before using the App, particularly the terms about the free trial and lifetime purchase, rights in creative content, data import and sync, backups and responsibility. If you do not agree to the applicable terms of use, stop using the App. This does not affect your statutory rights or your rights in your own creative content.
 
@@ -21,7 +21,7 @@ The App is a personal creative information management tool. Its features include
 
 Core creative data is stored locally. You do not need to register an App account. iCloud sync uses the iCloud account currently signed in to macOS and requires the relevant system services, a network connection and available storage. The App does not currently provide a public community, collaboration, a content publishing platform or cloud-based generative AI. “Coming soon” messages in Home, Space and Performance do not mean those features are available or promise a release date.
 
-The App currently supports Apple Silicon Macs running macOS 15.0 or later. Display results may vary by system, device and assets. Requirements for later versions are subject to their release information.
+The App currently supports Apple Silicon Macs running macOS 15.6 or later. Display results may vary by system, device and assets. Requirements for later versions are subject to their release information.
 
 ## 2. Software license and third-party components
 
@@ -31,7 +31,7 @@ Rights in the App’s program, interface design, marks and resources supplied by
 
 The App contains third-party components, models or resources governed by their respective licenses, available under Settings → About → Third-party licenses. The App license does not grant independent rights to third-party assets or models. Separate extraction, redistribution or use in other products must comply with the relevant licenses.
 
-If you obtain the App through the Mac App Store, Apple’s standard end-user license agreement and applicable store terms also apply. This agreement explains the App’s specific terms without reducing rights granted by Apple’s agreement or applicable law. Conflicts are handled under applicable law and valid store license terms.
+If you obtain the App through the Mac App Store, the applicable store terms and software license conditions still apply. Where no applicable custom end-user license agreement is provided, [Apple’s standard end-user license agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) applies. This agreement supplements the App’s specific terms. It does not reduce rights granted by applicable law or valid store license terms. Conflicts are handled under those laws and valid terms.
 
 ### Free trial and one-time lifetime purchase
 
@@ -39,7 +39,7 @@ If you obtain the App through the Mac App Store, Apple’s standard end-user lic
 
 **One-time purchase.** Continuing to use all features requires an actively confirmed lifetime purchase, available under Settings → Purchase. This is a non-consumable in-app purchase: one payment unlocks all App features, with no fixed access expiry and no monthly or yearly renewal. Price, currency and taxes are those shown in the purchase interface and Apple’s confirmation sheet; this agreement does not fix a price. Use remains subject to supported systems and devices, the software license and Apple service availability. Purchasing the App does not change iCloud storage or service rules.
 
-**Expiry and retained data.** If the trial expires without valid lifetime access, creative editing, data package import, iCloud sync and the desktop character are paused. Data & Privacy remains available on the welcome screen and purchase notices, allowing free export of all or selected data packages, export of a JSON copy that can be read and copied in a text editor, disabling sync, clearing diagnostic cache and reading policies, without first purchasing the App. Expiry does not automatically delete existing local or cloud data or change your rights in creative content. You may resume creation after obtaining valid access. Restoring purchases does not restore deleted content.
+**Expiry and retained data.** If the trial expires without valid lifetime access, creative editing, data package import, iCloud sync and the desktop character are paused. Data & Privacy remains available on the welcome screen and purchase notices, allowing free export of all or selected data packages, disabling sync, clearing diagnostic cache and reading policies, without first purchasing the App. Expiry does not automatically delete existing local or cloud data or change your rights in creative content. You may resume creation after obtaining valid access. Restoring purchases does not restore deleted content.
 
 **Restoring purchases.** The App checks purchases automatically at launch. After reinstalling, moving to a supported Mac, or if access is not recognized, select “Already purchased?” in the purchase interface and use the App Store account that claimed the trial or made the purchase. Restoration does not charge you again. It restores only that account’s valid access; it does not extend the trial, reinstate refunded or revoked purchases, or recover deleted creative data. The App Store transaction account may differ from the system iCloud account. Restoring purchases is not a substitute for syncing or backing up creative data.
 
@@ -59,7 +59,7 @@ Ensure you have the necessary rights to import and use your materials, and respe
 
 Settings → Data Management lets you export all or selected data as a package, optionally including preferences. Dependencies are included automatically to preserve links. Character data includes saved speech rules, appearance adjustments, accessory states, part variants and outfits. Selecting a character may also include its world, linked records, images and parts. Review the actual scope before exporting.
 
-You may also export a readable JSON copy with original binary files preserved as Base64. It can be viewed and copied in a text editor but cannot be imported into the App. Data package and JSON exports remain free after the trial ends.
+Data package exports remain free after the trial ends and can be used for backups and later import into the App.
 
 Import validates and merges data, keeping the local version when an internal ID already exists. Included preferences are restored after data import succeeds. Import merges data; it does not overwrite the library to restore a historical state. Items with the same name but different IDs may remain separate.
 
@@ -109,7 +109,7 @@ The Author will update this agreement and identify its version and date when fea
 
 You may stop using the App. Stopping or uninstalling does not automatically delete exports, backups or existing iCloud data. See the Privacy Policy for cleanup options. For questions, contact:
 
-- Author / App provider: Wu Guifu (吴贵福), pen name Futu (福涂)
+- Author / App provider: GuiFu Wu (吴贵福), pen name Futu (福涂)
 - Email: [faurewu@icloud.com](mailto:faurewu@icloud.com)
 - Agreement repository: [FaureWu/legal](https://github.com/FaureWu/legal/tree/main/ruaoc)
 - Agreement webpage: [Rua OC User Agreement](https://faurewu.github.io/legal/ruaoc/en/user-agreement/)
