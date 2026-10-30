@@ -143,7 +143,7 @@ Local child-protection rules apply elsewhere. Where a relevant online service re
 
 We will update this policy to reflect actual features and processing, with a version and date. Material changes will be communicated through the App or other appropriate means as required by law. If a change to purposes, methods, or information categories requires fresh consent, we will obtain it separately; posting a webpage or continued use does not automatically replace that consent.
 
-Simplified Chinese and English versions are provided and should remain consistent. We will clarify and correct translation differences without reducing your rights under applicable law.
+Simplified Chinese, English, Japanese, Korean, German, and French versions are provided and should remain consistent. We will clarify and correct translation differences without reducing your rights under applicable law.
 
 ## 13. Contact Us
 
