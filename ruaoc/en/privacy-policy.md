@@ -21,17 +21,18 @@ Rua OC is a creative tool for worlds, characters, archives, timelines, and relat
 
 This policy describes actual processing. Using the App is not treated as blanket consent to all optional processing.
 
-## 2. Information We Process
+## 2. Information Categories
 
-- **Creative content:** Worlds, characters, archives, templates, text, fields, relationship maps, timelines, and character speech and trigger settings, used to create, edit, search, and display your work. It is stored locally and, when enabled, synced according to your selection and necessary relationships.
-- **Images and character assets:** Original images, thumbnails, filenames, dimensions, file dates, tags, notes, character parts, crops, appearance settings, outfits, and previews, used for editing, display, export, and optional sync.
-- **App settings:** Language, appearance, startup and recent pages, desktop character options, and sync settings, used to retain preferences and restore the workspace, primarily on your device.
-- **Purchase information:** Product and transaction identifiers, original purchase dates, and revocation and signature-related information returned by Apple StoreKit, used to validate trial or purchase access and restore purchases.
-- **Sync information:** CloudKit account identifiers, random client identifiers, internal record identifiers, content checksums, and sync state, used to separate accounts, merge changes, and retry operations. Necessary information is held locally and in private iCloud records.
-- **Local interaction and diagnostics:** Pointer positions, key events, necessary window state, and error times, code locations, error types, and normalized crash information, used for interaction and troubleshooting as described in Sections 6 and 7.
-- **Feedback you provide:** Your email address, issue description, and attachments, used only to address feedback, reply, and assist with rights requests.
+The App handles the following categories. Some are processed only on your device; others are synced or sent only as you choose. Listing a category here does not mean we receive all of that information from your device.
 
-Fictional character information is not necessarily personal information, but text and photos you import may relate to real people. Original image files are preserved, so embedded capture dates, device information, or location metadata may also be stored, synced, or exported. Remove unwanted metadata before importing.
+- **Creative content and assets:** Text, images, and related material you provide, used to create, organize, and display your work. They remain local by default; enabling sync also places your selection and necessary linked content in iCloud.
+- **Settings and interaction information:** App preferences and pointer or keyboard events, used to remember choices and respond to actions. Settings are stored locally. Interaction events serve immediate responses and are not saved or uploaded as activity logs.
+- **Purchase information:** Purchase records and access status supplied by Apple, used to validate trials, purchases, and restoration.
+- **Information needed for sync:** Necessary account, App, and content identifiers and sync state, used to separate accounts, synchronize changes, and retry operations. These are held locally and in necessary private iCloud records.
+- **Diagnostics:** Limited error and crash records used for troubleshooting, kept locally and not uploaded automatically; see Section 7.
+- **Feedback you provide:** Contact information, issue descriptions, and attachments you send, used to reply, address issues, and assist with rights requests.
+
+Fictional creative content is not necessarily personal information, but text or photos you provide may relate to real people. Original image files are preserved, so embedded capture dates, device information, or location metadata may also be stored, synced, or exported. Remove unwanted metadata before importing.
 
 The App does not require your real name, phone number, identity documents, Apple account password, or payment card number. Only enter or share other people’s information when you are authorized to do so.
 
