@@ -13,7 +13,7 @@ permalink: /ruaoc/de/privacy-policy/
 
 ## 1. Einführung
 
-Diese Erklärung erläutert, wie GuiFu Wu (吴贵福, Pseudonym Futu／福涂, „wir“) Informationen im Zusammenhang mit der macOS-App Rua OC (布袋 OC, „App“) verarbeitet und schützt. Kontakt: [faurewu@icloud.com](mailto:faurewu@icloud.com).
+Diese Erklärung erläutert, wie GuiFu Wu (吴贵福, Pseudonym Futu／福涂, „wir“) Informationen im Zusammenhang mit der macOS-App Rua OC („App“) verarbeitet und schützt. Kontakt: [faurewu@icloud.com](mailto:faurewu@icloud.com).
 
 Rua OC hilft beim Organisieren kreativer Inhalte und Gestalten von Charakteren. Die App bietet einen kostenlosen Testzeitraum von 14 Tagen und einen Einmalkauf. Ein eigenes App-Konto ist nicht erforderlich. Zentrale Kreativfunktionen und Bildverarbeitung laufen auf Ihrem Mac; iCloud-Synchronisierung ist optional.
 

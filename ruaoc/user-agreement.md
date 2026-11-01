@@ -1,16 +1,16 @@
 ---
 layout: legal-document
-title: 用户协议 - 布袋 OC / Rua OC
+title: 用户协议 - Rua OC
 software: ruaoc
-software_name: 布袋 OC / Rua OC
+software_name: Rua OC
 permalink: /ruaoc/user-agreement/
 ---
 
-# 用户协议 - 布袋 OC / Rua OC
+# 用户协议 - Rua OC
 
 *版本：1.0 · 更新及生效日期：2026 年 10 月 30 日*
 
-本协议适用于吴贵福（笔名：福涂，以下简称“作者”）提供的 macOS 软件“布袋 OC”，英文名称为“Rua OC”（以下简称“本软件”）。联系邮箱为 [faurewu@icloud.com](mailto:faurewu@icloud.com)。
+本协议适用于吴贵福（笔名：福涂，以下简称“作者”）提供的 macOS 软件“Rua OC”（以下简称“本软件”）。联系邮箱为 [faurewu@icloud.com](mailto:faurewu@icloud.com)。
 
 请在使用本软件前阅读本协议，特别是免费试用与买断、创作内容权利、数据导入与同步、备份和责任范围的说明。若不同意适用的使用条件，请停止使用本软件；这不影响您依法享有的权利，也不影响您对自己创作内容的权利。
 
@@ -111,6 +111,6 @@ Apple 服务的可用性、账号规则和储存安排受其适用条款约束�
 - 作者／本软件提供者：吴贵福（笔名：福涂）
 - 邮箱：[faurewu@icloud.com](mailto:faurewu@icloud.com)
 - 协议托管：[FaureWu/legal](https://github.com/FaureWu/legal/tree/main/ruaoc)
-- 协议网页：[布袋 OC 用户协议](https://faurewu.github.io/legal/ruaoc/user-agreement/)
+- 协议网页：[Rua OC 用户协议](https://faurewu.github.io/legal/ruaoc/user-agreement/)
 
 本协议适用依法应适用的法律。争议可先通过上述邮箱协商，未能解决的，可向依法有管辖权的机构寻求处理。

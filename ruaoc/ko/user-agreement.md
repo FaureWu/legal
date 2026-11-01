@@ -11,7 +11,7 @@ permalink: /ruaoc/ko/user-agreement/
 
 *버전: 1.0 · 개정 및 시행일: 2026년 10월 30일*
 
-이 약관은 吴贵福(GuiFu Wu, 필명 福涂／Futu, 이하 ‘제작자’)가 제공하는 macOS 앱 布袋 OC(영문명 Rua OC, 이하 ‘앱’)에 적용됩니다. 연락처: [faurewu@icloud.com](mailto:faurewu@icloud.com).
+이 약관은 吴贵福(GuiFu Wu, 필명 福涂／Futu, 이하 ‘제작자’)가 제공하는 macOS 앱 Rua OC(이하 ‘앱’)에 적용됩니다. 연락처: [faurewu@icloud.com](mailto:faurewu@icloud.com).
 
 사용 전 무료 체험과 영구 이용권, 창작 권리, 가져오기·동기화, 백업, 책임에 관한 조항을 읽어 주세요. 적용되는 조건에 동의하지 않으면 사용을 중단하세요. 법적 권리와 자신의 창작물에 대한 권리는 영향을 받지 않습니다.
 

@@ -11,7 +11,7 @@ permalink: /ruaoc/en/user-agreement/
 
 *Version: 1.0 · Updated and effective: October 30, 2026*
 
-This agreement applies to the macOS app “布袋 OC”, known in English as “Rua OC” (the “App”), provided by GuiFu Wu (吴贵福), pen name Futu (福涂), referred to as the “Author”. Contact: [faurewu@icloud.com](mailto:faurewu@icloud.com).
+This agreement applies to the macOS app “Rua OC” (the “App”), provided by GuiFu Wu (吴贵福), pen name Futu (福涂), referred to as the “Author”. Contact: [faurewu@icloud.com](mailto:faurewu@icloud.com).
 
 Please read this agreement before using the App, particularly the terms about the free trial and lifetime purchase, rights in creative content, data import and sync, backups and responsibility. If you do not agree to the applicable terms of use, stop using the App. This does not affect your statutory rights or your rights in your own creative content.
 

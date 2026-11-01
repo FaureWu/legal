@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 布袋 OC / Rua OC
+title: Rua OC
 software: ruaoc
-software_name: 布袋 OC / Rua OC
+software_name: Rua OC
 permalink: /ruaoc/
 ---
 
-# 布袋 OC / Rua OC
+# Rua OC
 
 帮助您整理创作内容、塑造角色的 macOS 应用。
 

@@ -4,7 +4,7 @@
 
 网页入口：[福涂的软件协议与隐私政策](https://faurewu.github.io/legal/)。通过 GitHub Pages 从 `main` 分支根目录发布。
 
-## 布袋 OC / Rua OC
+## Rua OC
 
 - [用户协议](ruaoc/user-agreement.md)
 - [隐私政策](ruaoc/privacy-policy.md)

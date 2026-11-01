@@ -11,7 +11,7 @@ permalink: /ruaoc/fr/user-agreement/
 
 *Version : 1.0 · Mise à jour et entrée en vigueur : 30 octobre 2026*
 
-Ces conditions concernent l’application macOS « 布袋 OC », appelée Rua OC en anglais (« l’Application »), fournie par GuiFu Wu (吴贵福), pseudonyme Futu (福涂), « l’Auteur ». Contact : [faurewu@icloud.com](mailto:faurewu@icloud.com).
+Ces conditions concernent l’application macOS « Rua OC » (« l’Application »), fournie par GuiFu Wu (吴贵福), pseudonyme Futu (福涂), « l’Auteur ». Contact : [faurewu@icloud.com](mailto:faurewu@icloud.com).
 
 Lisez-les avant utilisation, notamment l’essai et l’achat définitif, les droits sur vos créations, l’importation, la synchronisation, les sauvegardes et les responsabilités. Si vous refusez les conditions applicables, cessez l’utilisation. Vos droits légaux et ceux sur vos créations restent intacts.
 

@@ -11,7 +11,7 @@ permalink: /ruaoc/ja/user-agreement/
 
 *バージョン：1.0 · 更新日・施行日：2026年10月30日*
 
-本規約は、吴贵福（GuiFu Wu、ペンネーム：福涂／Futu、以下「作者」）が提供する macOS アプリ「布袋 OC」（英語名 Rua OC、以下「本アプリ」）に適用されます。連絡先：[faurewu@icloud.com](mailto:faurewu@icloud.com)。
+本規約は、吴贵福（GuiFu Wu、ペンネーム：福涂／Futu、以下「作者」）が提供する macOS アプリ「Rua OC」（以下「本アプリ」）に適用されます。連絡先：[faurewu@icloud.com](mailto:faurewu@icloud.com)。
 
 利用前に、特に体験・買い切り購入、創作内容の権利、読み込み・同期、バックアップ、責任についてお読みください。適用される利用条件に同意しない場合は使用を中止してください。法定の権利やご自身の創作内容に対する権利には影響しません。
 
