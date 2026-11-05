@@ -62,8 +62,7 @@ a:focus-visible { outline: 2px solid #3498db; outline-offset: 3px; }
   }
   function showLanguage() {
     const requested = new URL(location.href).searchParams.get('lang');
-    const language = resolveLanguage(requested)
-      || (navigator.languages || [navigator.language]).map(resolveLanguage).find(Boolean) || 'en';
+    const language = resolveLanguage(requested) || 'zh-CN';
     for (const section of sections) section.hidden = section.lang !== language;
     for (const link of links) {
       if (link.dataset.language === language) link.setAttribute('aria-current', 'page');
