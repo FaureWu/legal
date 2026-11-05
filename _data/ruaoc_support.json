@@ -1,0 +1,156 @@
+[
+  {
+    "code": "zh-CN",
+    "name": "简体中文",
+    "title": "支持",
+    "description": "帮助您整理创作内容、塑造角色的 macOS 应用。",
+    "studio": "工作室",
+    "language": "语言",
+    "contact": "联系支持",
+    "contact_intro": "使用问题、故障反馈或功能建议，请发送邮件至：",
+    "report_intro": "反馈问题时，请尽量提供：",
+    "report_items": [
+      "Rua OC 版本与 macOS 版本",
+      "问题发生前的操作步骤、预期结果与实际表现",
+      "必要的截图或诊断附件（请先移除私人资料）"
+    ],
+    "privacy_note": "请通过邮箱发送隐私问题或诊断附件，避免在公开页面提交私人资料。",
+    "documents": "相关文档",
+    "agreement": "用户协议",
+    "privacy": "隐私政策",
+    "legal_note": "",
+    "legal_path": ""
+  },
+  {
+    "code": "zh-Hant",
+    "name": "繁體中文",
+    "title": "支援",
+    "description": "協助您整理創作內容、塑造角色的 macOS App。",
+    "studio": "工作室",
+    "language": "語言",
+    "contact": "聯絡支援",
+    "contact_intro": "如有使用問題、錯誤回報或功能建議，請寄信至：",
+    "report_intro": "回報問題時，請盡量提供：",
+    "report_items": [
+      "Rua OC 版本與 macOS 版本",
+      "問題發生前的操作步驟、預期結果與實際情況",
+      "必要的截圖或診斷附件（請先移除私人資料）"
+    ],
+    "privacy_note": "請透過電子郵件傳送隱私問題或診斷附件，避免在公開頁面提交私人資料。",
+    "documents": "相關文件",
+    "agreement": "使用者協議（簡體中文）",
+    "privacy": "隱私政策（簡體中文）",
+    "legal_note": "以下連結目前開啟已發布的簡體中文文件。",
+    "legal_path": ""
+  },
+  {
+    "code": "en",
+    "name": "English",
+    "title": "Support",
+    "description": "A macOS app for organizing creative content and creating characters.",
+    "studio": "Studio",
+    "language": "Language",
+    "contact": "Contact support",
+    "contact_intro": "For help, bug reports, or feature suggestions, email:",
+    "report_intro": "When reporting an issue, please include:",
+    "report_items": [
+      "Your Rua OC and macOS versions",
+      "Steps to reproduce the issue, what you expected, and what happened",
+      "Relevant screenshots or diagnostic attachments, with private information removed"
+    ],
+    "privacy_note": "Send privacy questions or diagnostic attachments by email. Please avoid posting private information on public pages.",
+    "documents": "Related documents",
+    "agreement": "User Agreement",
+    "privacy": "Privacy Policy",
+    "legal_note": "",
+    "legal_path": "en/"
+  },
+  {
+    "code": "ja",
+    "name": "日本語",
+    "title": "サポート",
+    "description": "創作の資料整理やキャラクターづくりをサポートする macOS アプリ。",
+    "studio": "スタジオ",
+    "language": "言語",
+    "contact": "お問い合わせ",
+    "contact_intro": "使い方のご質問、不具合のご報告、機能のご要望は、メールでお送りください。",
+    "report_intro": "不具合をご報告の際は、可能な範囲で以下をお知らせください。",
+    "report_items": [
+      "Rua OC と macOS のバージョン",
+      "問題が発生するまでの操作手順、期待した結果、実際の動作",
+      "必要なスクリーンショットや診断ファイル（個人情報を除いてください）"
+    ],
+    "privacy_note": "プライバシーに関するご質問や診断ファイルはメールでお送りください。公開ページに私的な情報を投稿しないでください。",
+    "documents": "関連文書",
+    "agreement": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "legal_note": "",
+    "legal_path": "ja/"
+  },
+  {
+    "code": "ko",
+    "name": "한국어",
+    "title": "지원",
+    "description": "창작 자료를 정리하고 캐릭터를 만드는 macOS 앱입니다.",
+    "studio": "스튜디오",
+    "language": "언어",
+    "contact": "지원 문의",
+    "contact_intro": "사용 방법, 오류 신고 또는 기능 제안은 이메일로 보내 주세요.",
+    "report_intro": "문제를 신고할 때 다음 내용을 함께 알려 주세요.",
+    "report_items": [
+      "Rua OC 및 macOS 버전",
+      "문제가 발생하기까지의 단계, 예상한 결과 및 실제 동작",
+      "필요한 스크린샷 또는 진단 파일 (개인 정보는 먼저 제거해 주세요)"
+    ],
+    "privacy_note": "개인정보 관련 문의나 진단 파일은 이메일로 보내 주세요. 공개 페이지에 사적인 정보를 게시하지 마세요.",
+    "documents": "관련 문서",
+    "agreement": "이용약관",
+    "privacy": "개인정보 처리방침",
+    "legal_note": "",
+    "legal_path": "ko/"
+  },
+  {
+    "code": "de",
+    "name": "Deutsch",
+    "title": "Support",
+    "description": "Eine macOS-App zum Organisieren kreativer Inhalte und Gestalten von Charakteren.",
+    "studio": "Studio",
+    "language": "Sprache",
+    "contact": "Support kontaktieren",
+    "contact_intro": "Bei Fragen, Fehlern oder Funktionswünschen schreiben Sie uns eine E-Mail:",
+    "report_intro": "Bitte geben Sie bei einer Fehlermeldung möglichst Folgendes an:",
+    "report_items": [
+      "Die Versionen von Rua OC und macOS",
+      "Die Schritte zum Auftreten des Problems sowie das erwartete und das tatsächliche Verhalten",
+      "Relevante Screenshots oder Diagnosedateien, aus denen private Informationen zuvor entfernt wurden"
+    ],
+    "privacy_note": "Senden Sie Datenschutzfragen oder Diagnosedateien per E-Mail. Veröffentlichen Sie keine privaten Informationen auf öffentlich zugänglichen Seiten.",
+    "documents": "Weitere Dokumente",
+    "agreement": "Nutzungsvereinbarung",
+    "privacy": "Datenschutzerklärung",
+    "legal_note": "",
+    "legal_path": "de/"
+  },
+  {
+    "code": "fr",
+    "name": "Français",
+    "title": "Assistance",
+    "description": "Une app macOS pour organiser vos contenus créatifs et créer des personnages.",
+    "studio": "Studio",
+    "language": "Langue",
+    "contact": "Contacter l’assistance",
+    "contact_intro": "Pour toute question, signalement de problème ou suggestion, écrivez-nous à :",
+    "report_intro": "Pour signaler un problème, indiquez si possible :",
+    "report_items": [
+      "Les versions de Rua OC et de macOS",
+      "Les étapes pour reproduire le problème, le résultat attendu et le résultat obtenu",
+      "Les captures d’écran ou fichiers de diagnostic utiles, après avoir retiré les informations privées"
+    ],
+    "privacy_note": "Envoyez vos questions sur la confidentialité ou vos fichiers de diagnostic par e-mail. Évitez de publier des informations privées sur des pages publiques.",
+    "documents": "Documents associés",
+    "agreement": "Conditions d’utilisation",
+    "privacy": "Politique de confidentialité",
+    "legal_note": "",
+    "legal_path": "fr/"
+  }
+]

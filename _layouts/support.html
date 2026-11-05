@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<meta name="description" content="Rua OC 支持 · Fortunelab">
+<title>Rua OC 支持 · Fortunelab</title>
+<link rel="canonical" href="{{ '/ruaoc/' | absolute_url }}">
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #fff; overflow-wrap: break-word; }
+h1 { color: #1a1a1a; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+h2 { color: #2c3e50; margin-top: 30px; }
+ul { padding-left: 20px; }
+li { margin-bottom: 5px; }
+a { color: #3498db; }
+hr { border: none; border-top: 1px solid #eee; margin: 30px 0; }
+em { color: #666; }
+nav { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+nav a[aria-current="page"] { color: #333; font-weight: 600; text-decoration: none; }
+a:focus-visible { outline: 2px solid #3498db; outline-offset: 3px; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<nav aria-label="语言">
+{% for language in site.data.ruaoc_support %}
+<a href="?lang={{ language.code }}#support-{{ language.code }}" lang="{{ language.code }}" hreflang="{{ language.code }}" data-language="{{ language.code }}">{{ language.name }}</a>
+{% endfor %}
+</nav>
+<main>
+{% for language in site.data.ruaoc_support %}
+<section id="support-{{ language.code }}" lang="{{ language.code }}" data-title="Rua OC {{ language.title | escape }} · Fortunelab" data-nav-label="{{ language.language | escape }}" aria-labelledby="title-{{ language.code }}">
+<h1 id="title-{{ language.code }}">Rua OC {{ language.title }}</h1>
+<p><em>{{ language.studio }}：Fortunelab</em></p>
+<p>{{ language.description }}</p>
+<h2>{{ language.contact }}</h2>
+<p>{{ language.contact_intro }} <a href="mailto:faurewu@icloud.com">faurewu@icloud.com</a></p>
+<p>{{ language.report_intro }}</p>
+<ul>{% for item in language.report_items %}<li>{{ item }}</li>{% endfor %}</ul>
+<p>{{ language.privacy_note }}</p>
+<h2>{{ language.documents }}</h2>
+{% assign root = '/ruaoc/' | append: language.legal_path %}
+<ul>
+<li><a href="{{ root | append: 'user-agreement/' | relative_url }}">{{ language.agreement }}</a></li>
+<li><a href="{{ root | append: 'privacy-policy/' | relative_url }}">{{ language.privacy }}</a></li>
+</ul>
+{% if language.legal_note != '' %}<p><em>{{ language.legal_note }}</em></p>{% endif %}
+</section>
+{% endfor %}
+</main>
+<script>
+(() => {
+  const links = [...document.querySelectorAll('[data-language]')];
+  const sections = [...document.querySelectorAll('main > section')];
+  const supported = new Set(links.map(link => link.dataset.language));
+  function resolveLanguage(value) {
+    const code = (value || '').toLowerCase();
+    if (/^zh(?:-|$)/.test(code)) return /(?:hant|tw|hk|mo)/.test(code) ? 'zh-Hant' : 'zh-CN';
+    const base = code.split('-')[0];
+    return supported.has(base) ? base : null;
+  }
+  function showLanguage() {
+    const requested = new URL(location.href).searchParams.get('lang');
+    const language = resolveLanguage(requested)
+      || (navigator.languages || [navigator.language]).map(resolveLanguage).find(Boolean) || 'en';
+    for (const section of sections) section.hidden = section.lang !== language;
+    for (const link of links) {
+      if (link.dataset.language === language) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    }
+    const active = sections.find(section => section.lang === language);
+    document.documentElement.lang = language;
+    document.title = active.dataset.title;
+    document.querySelector('meta[name="description"]').content = active.dataset.title;
+    document.querySelector('nav').setAttribute('aria-label', active.dataset.navLabel);
+  }
+  for (const link of links) link.addEventListener('click', event => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    history.pushState(null, '', link.href);
+    showLanguage();
+  });
+  window.addEventListener('popstate', showLanguage);
+  showLanguage();
+})();
+</script>
+</body>
+</html>
