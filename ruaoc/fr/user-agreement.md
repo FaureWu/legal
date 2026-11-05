@@ -17,7 +17,9 @@ Lisez-les avant utilisation, notamment l’essai et l’achat définitif, les dr
 
 ## 1. Fonctions et périmètre
 
-L’Application gère des informations créatives personnelles : mondes, fiches et modèles, attributs et textes, graphes de relations, chronologies, catégories et images, profils et réglages de personnages, pièces d’apparence et tenues, visibilité des accessoires, illustrations, personnages de bureau et répliques, liens, importation et exportation de paquets, synchronisation iCloud facultative. Les fonctions disponibles dépendent de la version installée.
+Rua OC est une application de création et de gestion de personnages originaux utilisable hors ligne. Elle vous aide à organiser vos univers, vos ressources créatives, l’apparence de vos personnages et leurs fiches.
+
+Les fonctionnalités comprennent : mondes, fiches et modèles, attributs et textes, graphes de relations, chronologies, catégories et images, profils et réglages de personnages, pièces d’apparence et tenues, visibilité des accessoires, illustrations, personnages de bureau et répliques, liens, importation et exportation de paquets, synchronisation iCloud facultative. Les fonctions disponibles dépendent de la version installée.
 
 Les données principales sont locales et aucun compte propre à l’Application n’est requis. iCloud utilise le compte connecté à macOS et nécessite services système, réseau et espace disponible. L’Application ne propose actuellement ni communauté publique, collaboration, plateforme de publication, ni IA générative en ligne. Les annonces de fonctions à venir dans Accueil, Espace et Mise en scène ne valent ni disponibilité ni date promise.
 

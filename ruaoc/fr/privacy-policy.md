@@ -15,7 +15,9 @@ permalink: /ruaoc/fr/privacy-policy/
 
 Cette politique explique comment GuiFu Wu (吴贵福, pseudonyme Futu／福涂, « nous ») traite et protège les informations liées à l’application macOS Rua OC (« l’Application »). Contact : [faurewu@icloud.com](mailto:faurewu@icloud.com).
 
-Rua OC aide à organiser des contenus créatifs et à créer des personnages. Elle propose un essai gratuit de 14 jours et un achat unique, sans compte propre à l’Application. Les principales fonctions créatives et le traitement des images fonctionnent sur votre Mac ; la synchronisation iCloud est facultative.
+Rua OC est une application de création et de gestion de personnages originaux utilisable hors ligne. Elle vous aide à organiser vos univers, vos ressources créatives, l’apparence de vos personnages et leurs fiches.
+
+Elle propose un essai gratuit de 14 jours et un achat unique, sans compte propre à l’Application. Les principales fonctions créatives et le traitement des images fonctionnent sur votre Mac ; la synchronisation iCloud est facultative.
 
 **Les créations restent locales par défaut. Lorsque vous activez iCloud, les contenus sélectionnés et les éléments liés nécessaires sont transmis à la base privée du compte iCloud actuel. Ils ne sont pas envoyés à un serveur exploité par le développeur.** Les achats, leur restauration et la recherche de mises à jour utilisent Apple. L’Application n’est donc pas entièrement hors ligne et peut traiter des données personnelles.
 

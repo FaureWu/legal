@@ -17,7 +17,9 @@ Lesen Sie vor der Nutzung insbesondere die Regeln zu Testzeitraum und Dauerkauf,
 
 ## 1. Funktionen und Nutzungsumfang
 
-Die App verwaltet persönliche kreative Informationen: Welten, Einträge und Vorlagen, Attribute und Texte, Beziehungsdiagramme, Zeitachsen, Bildkategorien und Bilder, Charakterprofile und Einstellungen, Erscheinungsteile und Outfits, sichtbares Zubehör, Illustrationen, Desktop-Charaktere mit eigenen Sprüchen, Datenverknüpfungen, Paketimport und -export sowie optionale iCloud-Synchronisierung. Verfügbar sind die Funktionen Ihrer installierten Version.
+Rua OC ist eine App zum Erstellen und Verwalten eigener Charaktere, die auch offline genutzt werden kann. Sie hilft Ihnen, Welten, kreative Materialien, das Aussehen Ihrer Charaktere und ihre Profile zu organisieren.
+
+Zu den Funktionen gehören: Welten, Einträge und Vorlagen, Attribute und Texte, Beziehungsdiagramme, Zeitachsen, Bildkategorien und Bilder, Charakterprofile und Einstellungen, Erscheinungsteile und Outfits, sichtbares Zubehör, Illustrationen, Desktop-Charaktere mit eigenen Sprüchen, Datenverknüpfungen, Paketimport und -export sowie optionale iCloud-Synchronisierung. Verfügbar sind die Funktionen Ihrer installierten Version.
 
 Zentrale kreative Daten bleiben lokal. Ein eigenes App-Konto ist nicht nötig. iCloud verwendet das in macOS angemeldete Konto und benötigt Systemdienste, Netzwerk und freien Speicher. Öffentliche Community, Zusammenarbeit, Veröffentlichungsplattform und generative Cloud-KI werden derzeit nicht angeboten. Hinweise auf kommende Funktionen in Start, Raum und Inszenierung bedeuten weder Verfügbarkeit noch ein zugesagtes Veröffentlichungsdatum.
 

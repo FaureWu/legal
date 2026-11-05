@@ -17,7 +17,9 @@ Please read this agreement before using the App, particularly the terms about th
 
 ## 1. Features and scope of use
 
-The App is a personal creative information management tool. Its features include worlds, records and templates, attributes and text editing, relationship graphs, timelines, gallery categories and images, character profiles and settings, appearance parts and outfit customization, accessory visibility, illustrations, desktop characters and custom speech, data links, data package import and export, and optional iCloud sync. Available features depend on the installed version.
+Rua OC is an app for creating and managing original characters that supports offline use, helping you organize worlds, creative assets, character appearances, and profiles.
+
+Its features include worlds, records and templates, attributes and text editing, relationship graphs, timelines, gallery categories and images, character profiles and settings, appearance parts and outfit customization, accessory visibility, illustrations, desktop characters and custom speech, data links, data package import and export, and optional iCloud sync. Available features depend on the installed version.
 
 Core creative data is stored locally. You do not need to register an App account. iCloud sync uses the iCloud account currently signed in to macOS and requires the relevant system services, a network connection and available storage. The App does not currently provide a public community, collaboration, a content publishing platform or cloud-based generative AI. “Coming soon” messages in Home, Space and Performance do not mean those features are available or promise a release date.
 
