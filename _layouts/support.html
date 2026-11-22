@@ -41,9 +41,10 @@ a:focus-visible { outline: 2px solid #3498db; outline-offset: 3px; }
 <p>{{ language.privacy_note }}</p>
 <h2>{{ language.documents }}</h2>
 {% assign root = '/ruaoc/' | append: language.legal_path %}
+{% assign privacy_path = language.privacy_path | default: language.legal_path %}
 <ul>
 <li><a href="{{ root | append: 'user-agreement/' | relative_url }}">{{ language.agreement }}</a></li>
-<li><a href="{{ root | append: 'privacy-policy/' | relative_url }}">{{ language.privacy }}</a></li>
+<li><a href="{{ '/ruaoc/' | append: privacy_path | append: 'privacy-policy/' | relative_url }}">{{ language.privacy }}</a></li>
 </ul>
 {% if language.legal_note != '' %}<p><em>{{ language.legal_note }}</em></p>{% endif %}
 </section>

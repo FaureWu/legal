@@ -19,7 +19,7 @@ Rua OC is an app for creating and managing original characters that supports off
 
 The App offers a 14-day free trial and a one-time purchase. No separate App account is required. Core creative features and image processing run on your Mac; iCloud sync is optional.
 
-**Creative content is stored locally by default. When you enable iCloud sync, selected content and necessary linked items are transmitted to the current iCloud account’s private database. The App does not upload this content to a developer-operated server.** Purchases, purchase restoration, and update checks use Apple services; the App should not be understood as entirely offline or as never processing personal information.
+**Creative content is stored locally by default. When you enable iCloud sync, selected content and necessary linked items are transmitted to the current iCloud account’s private database. The App does not upload this content to a developer-operated server.** Purchases and purchase restoration use Apple services. The App should not be understood as entirely offline or as never processing personal information.
 
 This policy describes actual processing. Using the App is not treated as blanket consent to all optional processing.
 
@@ -48,7 +48,7 @@ We do not sell personal information, use advertising tracking or third-party beh
 
 ## 4. Optional iCloud Sync
 
-Sync is off by default. You can enable it during initial feature setup or in Settings → Data Management, and choose all content or a selection in Data Management. “All content” includes existing and future content. To preserve relationships, a selection may also include linked worlds, characters, archives, and images; automatically included items are shown in the selection interface.
+Sync is off by default. You can enable it in Settings → Data Management, and choose all content or a selection in Data Management. “All content” includes existing and future content. To preserve relationships, a selection may also include linked worlds, characters, archives, and images; automatically included items are shown in the selection interface.
 
 Synced content includes relevant text, fields, original images, thumbnails, character assets, and necessary sync identifiers. CloudKit stores it in the App’s private database for the current system iCloud account, not a public database or an App feature that publishes it to other users. We do not operate an administration interface for remotely browsing this private creative content.
 
@@ -58,13 +58,11 @@ The App checks iCloud account availability and identifiers and responds to chang
 
 Information about real people’s health, identity, finances, movements, or children may be sensitive personal information. Avoid entering or syncing it unnecessarily. Where needed, applicable necessity, authorization, and separate-consent requirements must be met. Sync serves the cross-device storage and recovery you choose; disclosure may affect privacy, personal safety, or financial interests. An App user cannot consent on someone else’s behalf beyond their authority.
 
-## 5. Trials, Purchases, and Update Checks
+## 5. Trials and Purchases
 
 Trials, one-time purchases, purchase restoration, and offer-code redemption use Apple StoreKit. The App verifies Apple’s transaction information on your device to calculate the trial period, establish access, and respond to refunds or revocations. Access may be checked at launch, when the App becomes active, and when transactions change. Restoring purchases requests Apple’s record synchronization and may require a connection and system account authentication; it does not charge you again.
 
 Payment cards, billing details, account passwords, and offer codes are handled in the relevant Apple interfaces. The App does not read or save those inputs. Purchase records are not synced as creative content, included in creative export packages, or written into diagnostics. Your App Store purchase account may differ from your system iCloud account.
-
-The App checks Apple’s `itunes.apple.com` service automatically or at your request for a released version. Requests contain the App’s store ID, storefront or system region code, and software category, not creative content or diagnostics. The receiving service obtains normal connection information such as an IP address. Results and check times are cached locally; update links open Apple’s store or website.
 
 Apple’s account, payment, transaction, and service-security processing is governed by its [Privacy Policy](https://www.apple.com/legal/privacy/) and applicable service terms.
 
@@ -73,7 +71,8 @@ Apple’s account, payment, transaction, and service-security processing is gove
 - **Import and export:** In response to your file selection, drag-and-drop, or save action, the App reads images, assets, or data packages and writes to the destination you select. Importing an image does not mean requesting access to your entire system Photos library.
 - **Clipboard:** Relevant text is read when you perform a paste action for editing; the App does not continuously scan the clipboard in the background.
 - **Pointer interaction:** Pointer positions and events are processed locally for hovering, dragging, illustration parallax, and desktop character movements, not uploaded as a behavioral history.
-- **Input Monitoring:** Desktop character keyboard following uses hardware key positions and modifier states to trigger gestures and briefly show keycap labels. It does not read input-method-composed text or save or upload keystroke logs. Keyboard following defaults to on and the in-app-only option defaults to off, but responding to keys in other apps still requires your explicit macOS Input Monitoring permission. Without that permission it responds only inside this App. It pauses when secure input is enabled, and monitoring stops when the character is hidden.
+- **Input Monitoring:** Desktop character keyboard following uses hardware key positions and modifier states to trigger gestures and briefly show keycap labels. It does not read input-method-composed text or save or upload keystroke logs. Keyboard following is on by default and initially responds only within Rua OC. To use it across apps, select System-wide and manually allow Rua OC under Input Monitoring in macOS System Settings. Without that permission it responds only inside this App. It pauses when secure input is enabled, and monitoring stops when the character is hidden.
+- **System audio access:** When music following is enabled in Settings → Desktop Character, the question mark explains how to grant system audio access manually. Rua OC begins reading system audio when the feature is on and a character is visible on the desktop. If access has not been granted, macOS may ask at that point. Rua OC detects beats and vocals on this Mac. It does not use the microphone or screen, or save, upload, sync, or transcribe audio. Turning off the feature or hiding the desktop character stops capture. You can revoke access at any time in macOS Privacy & Security → Screen & System Audio Recording. Other local features work without this permission.
 - **Launch at login:** This uses macOS login items and can be disabled in the App or system settings. Enabling it does not create an additional data upload.
 
 You can disable keyboard following or restrict it to the App in Settings → Desktop Character. Revoke Input Monitoring in macOS System Settings → Privacy & Security → Input Monitoring. Refusing it does not prevent local creative work. File access is managed by macOS and your actions; not every kind of access has a separate system permission switch.
@@ -92,7 +91,7 @@ Do not send identity documents, passwords, or unauthorized children’s informat
 
 ## 8. Service Providers, Disclosure, and Storage Regions
 
-Optional sync is provided by the service provider applicable to your current system iCloud account; purchases and updates use the relevant Apple services. We do not provide creative content to advertisers or data brokers. Export destinations, other cloud drives, email services, or recipients you choose handle files you give them under their own rules.
+Optional sync is provided by the service provider applicable to your current system iCloud account. Purchases and purchase restoration use Apple services. We do not provide creative content to advertisers or data brokers. Export destinations, other cloud drives, email services, or recipients you choose handle files you give them under their own rules.
 
 For iCloud operated by GCBD in China mainland, the provider is **AIPO Cloud (Guizhou) Technology Co. Ltd.** (云上艾珀（贵州）技术有限公司, Guizhou, China). Elsewhere, the applicable Apple entity may be Apple Inc. (US), Apple Canada Inc. (Canada), Apple Services LATAM LLC (US), Apple Services Pte. Ltd. (Singapore), iTunes K.K. (Japan), Apple Pty Limited (Australia), or Apple Distribution International Ltd. (Ireland). See the [iCloud Terms](https://www.apple.com/legal/internet-services/icloud/) for the regional mapping; the App does not read or verify your account’s service region.
 
@@ -104,7 +103,7 @@ Privacy and user-agreement pages are hosted on GitHub Pages and opened in your d
 
 ## 9. Data Security
 
-We use system storage and network services, CloudKit private databases, account-change checks, integrity validation, and diagnostic-field restrictions to reduce risk. Update queries use HTTPS. Apple’s security mechanisms govern its cloud-service transmission, storage, and account protection.
+We use system storage and network services, CloudKit private databases, account-change checks, integrity validation, and diagnostic-field restrictions to reduce risk. Apple’s security mechanisms govern its cloud-service transmission, storage, and account protection.
 
 Local databases and export packages do not have a separate password-encryption feature provided by the App. Protection in transit does not mean an exported file is encrypted. Use trusted devices, macOS account protection, FileVault, appropriate backups, and iCloud security settings, and choose export destinations and recipients carefully.
 
@@ -145,7 +144,7 @@ Local child-protection rules apply elsewhere. Where a relevant online service re
 
 We will update this policy to reflect actual features and processing, with a version and date. Material changes will be communicated through the App or other appropriate means as required by law. If a change to purposes, methods, or information categories requires fresh consent, we will obtain it separately; posting a webpage or continued use does not automatically replace that consent.
 
-Simplified Chinese, English, Japanese, Korean, German, and French versions are provided and should remain consistent. We will clarify and correct translation differences without reducing your rights under applicable law.
+Simplified Chinese, Traditional Chinese, English, Japanese, Korean, German, and French versions are provided and should remain consistent. We will clarify and correct translation differences without reducing your rights under applicable law.
 
 ## 13. Contact Us
 

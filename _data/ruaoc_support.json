@@ -39,8 +39,9 @@
     "privacy_note": "請透過電子郵件傳送隱私問題或診斷附件，避免在公開頁面提交私人資料。",
     "documents": "相關文件",
     "agreement": "使用者協議（簡體中文）",
-    "privacy": "隱私政策（簡體中文）",
-    "legal_note": "以下連結目前開啟已發布的簡體中文文件。",
+    "privacy": "隱私政策",
+    "privacy_path": "zh-Hant/",
+    "legal_note": "",
     "legal_path": ""
   },
   {

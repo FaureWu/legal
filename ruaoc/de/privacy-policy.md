@@ -19,7 +19,7 @@ Rua OC ist eine App zum Erstellen und Verwalten eigener Charaktere, die auch off
 
 Die App bietet einen kostenlosen Testzeitraum von 14 Tagen und einen Einmalkauf. Ein eigenes App-Konto ist nicht erforderlich. Zentrale Kreativfunktionen und Bildverarbeitung laufen auf Ihrem Mac; iCloud-Synchronisierung ist optional.
 
-**Kreative Inhalte bleiben standardmäßig lokal. Wenn Sie die Synchronisierung aktivieren, werden ausgewählte Inhalte und notwendige Verknüpfungen in die private Datenbank des aktuellen iCloud-Kontos übertragen. Die App lädt sie nicht auf einen vom Entwickler betriebenen Server hoch.** Käufe, Wiederherstellung von Käufen und Aktualisierungsprüfungen verwenden Apple-Dienste. Die App ist daher weder vollständig offline noch grundsätzlich frei von der Verarbeitung personenbezogener Daten.
+**Kreative Inhalte bleiben standardmäßig lokal. Wenn Sie die Synchronisierung aktivieren, werden ausgewählte Inhalte und notwendige Verknüpfungen in die private Datenbank des aktuellen iCloud-Kontos übertragen. Die App lädt sie nicht auf einen vom Entwickler betriebenen Server hoch.** Für Käufe und deren Wiederherstellung nutzt die App Apple-Dienste. Die App ist daher weder vollständig offline noch grundsätzlich frei von der Verarbeitung personenbezogener Daten.
 
 Die Erklärung beschreibt tatsächliche Verarbeitungsvorgänge. Die Nutzung der App gilt nicht als pauschale Einwilligung in alle optionalen Verarbeitungen.
 
@@ -48,7 +48,7 @@ Wir verkaufen keine personenbezogenen Daten, nutzen weder Werbetracking noch Ver
 
 ## 4. Optionale iCloud-Synchronisierung
 
-Die Synchronisierung ist zunächst deaktiviert. Sie können sie bei der ersten Funktionseinrichtung oder unter Einstellungen → Datenverwaltung aktivieren und dort alle oder ausgewählte Inhalte festlegen. „Alle“ umfasst vorhandene und zukünftige Inhalte. Um Beziehungen zu erhalten, können verknüpfte Welten, Charaktere, Einträge und Bilder hinzukommen; automatisch einbezogene Elemente werden in der Auswahl angezeigt.
+Die Synchronisierung ist zunächst deaktiviert. Sie können sie unter Einstellungen → Datenverwaltung aktivieren und dort alle oder ausgewählte Inhalte festlegen. „Alle“ umfasst vorhandene und zukünftige Inhalte. Um Beziehungen zu erhalten, können verknüpfte Welten, Charaktere, Einträge und Bilder hinzukommen; automatisch einbezogene Elemente werden in der Auswahl angezeigt.
 
 Synchronisiert werden relevante Texte, Felder, Originalbilder, Vorschaubilder, Charaktermaterialien und erforderliche Kennungen. CloudKit speichert sie in der privaten App-Datenbank des aktuell im System verwendeten iCloud-Kontos, nicht in einer öffentlichen Datenbank oder einer Veröffentlichungsfunktion für andere Nutzer. Wir betreiben keine Verwaltungsoberfläche zum entfernten Durchsuchen dieser privaten Inhalte.
 
@@ -58,13 +58,11 @@ Die App prüft Verfügbarkeit und Kennungen des iCloud-Kontos und reagiert auf S
 
 Angaben zu Gesundheit, Identität, Finanzen, Bewegungen oder Kindern können sensible personenbezogene Daten sein. Vermeiden Sie unnötige Eingaben und Synchronisierung; erfüllen Sie erforderlichenfalls gesetzliche Anforderungen an Erforderlichkeit, Berechtigung und gesonderte Einwilligung. Die Synchronisierung dient Ihrer gewählten geräteübergreifenden Speicherung und Wiederherstellung. Offenlegung kann Privatsphäre, Sicherheit oder Vermögen beeinträchtigen. Niemand kann außerhalb seiner Befugnis für andere einwilligen.
 
-## 5. Testzeitraum, Käufe und Aktualisierungsprüfungen
+## 5. Testzeitraum und Käufe
 
 Testzeitraum, Einmalkauf, Wiederherstellung und Angebotscodes verwenden Apple StoreKit. Die App prüft Apples Transaktionsdaten auf Ihrem Gerät, um Testdauer und Zugriff zu bestimmen sowie Erstattungen oder Widerrufe zu berücksichtigen. Prüfungen erfolgen etwa beim Start, Aktivwerden und bei Transaktionsänderungen. Eine Wiederherstellung fordert den Datensatzabgleich bei Apple an und kann eine Verbindung und Systemauthentifizierung erfordern; sie belastet Sie nicht erneut.
 
 Karten-, Rechnungs-, Passwort- und Codeeingaben erfolgen in Apple-Oberflächen; die App liest oder speichert diese Eingaben nicht. Kaufnachweise werden weder als kreative Inhalte synchronisiert noch in kreative Exportpakete oder Diagnosen aufgenommen. Das App-Store-Konto kann vom iCloud-Systemkonto abweichen.
-
-Automatisch oder auf Anforderung fragt die App `itunes.apple.com` nach einer veröffentlichten Version. Die Anfrage enthält Store-ID, Store- oder Systemregionscode und Softwarekategorie, keine kreativen Inhalte oder Diagnosen. Der Empfänger erhält übliche Verbindungsdaten wie die IP-Adresse. Ergebnisse und Prüfzeiten werden lokal zwischengespeichert; Aktualisierungslinks öffnen Apples Store oder Website.
 
 Für Apples Konto-, Zahlungs-, Transaktions- und Sicherheitsverarbeitung gelten seine [Datenschutzrichtlinie](https://www.apple.com/legal/privacy/) und einschlägigen Dienstbedingungen.
 
@@ -73,7 +71,8 @@ Für Apples Konto-, Zahlungs-, Transaktions- und Sicherheitsverarbeitung gelten 
 - **Import und Export:** Auf Ihre Dateiauswahl, Ziehen und Ablegen oder Speicheraktion hin liest die App Bilder, Materialien oder Datenpakete und schreibt an den gewählten Ort. Ein Bildimport fordert keinen Zugriff auf Ihre gesamte Fotomediathek an.
 - **Zwischenablage:** Text wird bei einer Einfügeaktion zum Bearbeiten gelesen, nicht fortlaufend im Hintergrund durchsucht.
 - **Zeiger:** Positionen und Ereignisse dienen lokal Hover, Ziehen, Illustrationsparallaxe und Charakterbewegungen, nicht einer hochgeladenen Verhaltenshistorie.
-- **Eingabeüberwachung:** Die Tastaturreaktion verwendet physische Tastenpositionen und Modifikatortasten für Gesten und kurz sichtbare Tastenbeschriftungen. Sie liest keinen durch Eingabemethoden zusammengesetzten Text und speichert oder überträgt keine Tastenprotokolle. Die Tastaturreaktion ist standardmäßig aktiviert, die Beschränkung auf die App deaktiviert. Reaktionen auf andere Apps benötigen trotzdem Ihre ausdrückliche macOS-Berechtigung zur Eingabeüberwachung. Ohne sie reagiert die App nur intern. Bei sicherer Eingabe pausiert die Funktion; beim Ausblenden des Charakters endet die Überwachung.
+- **Eingabeüberwachung:** Die Tastaturreaktion verwendet physische Tastenpositionen und Modifikatortasten für Gesten und kurz sichtbare Tastenbeschriftungen. Sie liest keinen durch Eingabemethoden zusammengesetzten Text und speichert oder überträgt keine Tastenprotokolle. Die Tastaturreaktion ist standardmäßig aktiviert und auf Rua OC beschränkt. Für Reaktionen in anderen Apps wählen Sie „Systemweit“ und erlauben Rua OC die Eingabeüberwachung in den macOS-Systemeinstellungen selbst. Ohne sie reagiert die App nur intern. Bei sicherer Eingabe pausiert die Funktion; beim Ausblenden des Charakters endet die Überwachung.
+- **Zugriff auf Systemaudio:** Nach dem Einschalten der Musikfunktion unter Einstellungen → Schreibtischfigur erklärt das Fragezeichen, wie der Zugriff auf Systemaudio manuell erlaubt wird. Rua OC beginnt mit dem Lesen des Systemaudios, sobald die Funktion eingeschaltet und eine Figur auf dem Schreibtisch sichtbar ist. Fehlt die Freigabe, kann macOS jetzt danach fragen. Rua OC erkennt Takt und Gesang auf diesem Mac. Mikrofon und Bildschirminhalt werden nicht verwendet. Audio wird weder gespeichert noch hochgeladen, synchronisiert oder transkribiert. Wenn du die Funktion ausschaltest oder die Figur ausblendest, endet der Zugriff. Die Erlaubnis lässt sich in macOS unter Datenschutz & Sicherheit → Aufnahme von Bildschirm & Systemaudio jederzeit widerrufen. Andere lokale Funktionen stehen auch ohne diese Erlaubnis zur Verfügung.
 - **Start bei Anmeldung:** macOS-Anmeldeobjekte lassen sich in der App oder im System deaktivieren. Daraus entsteht kein zusätzlicher Datenupload.
 
 Unter Einstellungen → Desktop-Charakter können Sie die Tastaturreaktion ausschalten oder auf die App beschränken. Die Berechtigung widerrufen Sie unter macOS-Systemeinstellungen → Datenschutz & Sicherheit → Eingabeüberwachung. Ablehnung verhindert lokales kreatives Arbeiten nicht. Dateizugriffe werden durch macOS und Ihre Aktionen verwaltet; nicht jeder Zugriff hat einen eigenen Berechtigungsschalter.
@@ -92,7 +91,7 @@ Senden Sie keine Ausweise, Passwörter oder unbefugt übermittelten Kinderdaten.
 
 ## 8. Anbieter, Offenlegung und Speicherregionen
 
-Optionale Synchronisierung erfolgt über den für Ihr aktuelles iCloud-Systemkonto zuständigen Anbieter; Käufe und Updates verwenden Apple-Dienste. Kreative Inhalte gehen nicht an Werbetreibende oder Datenhändler. Von Ihnen gewählte Exportziele, Cloudspeicher, E-Mail-Dienste oder Empfänger verarbeiten übergebene Dateien nach ihren eigenen Regeln.
+Optionale Synchronisierung erfolgt über den für Ihr aktuelles iCloud-Systemkonto zuständigen Anbieter. Apple wickelt Käufe und deren Wiederherstellung ab. Kreative Inhalte gehen nicht an Werbetreibende oder Datenhändler. Von Ihnen gewählte Exportziele, Cloudspeicher, E-Mail-Dienste oder Empfänger verarbeiten übergebene Dateien nach ihren eigenen Regeln.
 
 Für iCloud, betrieben von GCBD in Festlandchina, ist **AIPO Cloud (Guizhou) Technology Co. Ltd. (云上艾珀（贵州）技术有限公司, Guizhou, China)** zuständig. In anderen Regionen kann dies Apple Inc. (USA), Apple Canada Inc. (Kanada), Apple Services LATAM LLC (USA), Apple Services Pte. Ltd. (Singapur), iTunes K.K. (Japan), Apple Pty Limited (Australien) oder Apple Distribution International Ltd. (Irland) sein. Die regionale Zuordnung steht in den [iCloud-Bedingungen](https://www.apple.com/legal/internet-services/icloud/). Die App liest oder überprüft Ihre Kontodienstregion nicht.
 
@@ -104,7 +103,7 @@ Die Rechtsdokumente werden auf GitHub Pages gehostet und im Standardbrowser geö
 
 ## 9. Sicherheit
 
-Systemspeicher und Netzwerkdienste, private CloudKit-Datenbanken, Kontowechselprüfungen, Integritätskontrollen und beschränkte Diagnosefelder reduzieren Risiken. Updateanfragen verwenden HTTPS. Für Übertragung, Speicherung und Kontoschutz der Apple-Dienste gelten Apples Sicherheitsmechanismen.
+Systemspeicher und Netzwerkdienste, private CloudKit-Datenbanken, Kontowechselprüfungen, Integritätskontrollen und beschränkte Diagnosefelder reduzieren Risiken. Für Übertragung, Speicherung und Kontoschutz der Apple-Dienste gelten Apples Sicherheitsmechanismen.
 
 Lokale Datenbanken und Exportpakete besitzen keine eigene Passwortverschlüsselung der App. Transportschutz bedeutet nicht, dass eine exportierte Datei verschlüsselt ist. Verwenden Sie vertrauenswürdige Geräte, macOS-Kontoschutz, FileVault, geeignete Backups und iCloud-Sicherheitseinstellungen; wählen Sie Ziele und Empfänger sorgfältig.
 
@@ -145,7 +144,7 @@ Andernorts gelten lokale Kinderschutzregeln. Bei einwilligungsbasierten einschl�
 
 Wir aktualisieren diese Erklärung entsprechend Funktionen und Verarbeitung mit Version und Datum. Wesentliche Änderungen teilen wir gesetzeskonform in der App oder anderweitig angemessen mit. Erfordern neue Zwecke, Methoden oder Datenkategorien eine neue Einwilligung, holen wir sie gesondert ein; Veröffentlichung oder Weiternutzung ersetzt sie nicht.
 
-Wir bieten Fassungen in vereinfachtem Chinesisch, Englisch, Japanisch, Koreanisch, Deutsch und Französisch und halten sie inhaltlich konsistent. Übersetzungsabweichungen werden erläutert und korrigiert, ohne gesetzliche Rechte einzuschränken.
+Wir bieten Fassungen in vereinfachtem Chinesisch, traditionellem Chinesisch, Englisch, Japanisch, Koreanisch, Deutsch und Französisch und halten sie inhaltlich konsistent. Übersetzungsabweichungen werden erläutert und korrigiert, ohne gesetzliche Rechte einzuschränken.
 
 ## 13. Kontakt
 

@@ -3,9 +3,10 @@
 <head>
 {% assign document_name = page.url | split: '/' | last %}
 {% assign chinese_url = '/ruaoc/' | append: document_name | append: '/' %}
-{% assign language_codes = 'zh-CN,en,ja,ko,de,fr' | split: ',' %}
-{% assign language_names = '简体中文,English,日本語,한국어,Deutsch,Français' | split: ',' %}
-{% assign language_labels = '语言,Language,言語,언어,Sprache,Langue' | split: ',' %}
+{% assign language_codes = 'zh-CN,zh-Hant,en,ja,ko,de,fr' | split: ',' %}
+{% assign language_names = '简体中文,繁體中文,English,日本語,한국어,Deutsch,Français' | split: ',' %}
+{% assign language_labels = '语言,語言,Language,言語,언어,Sprache,Langue' | split: ',' %}
+{% assign published_pages = site.pages | map: 'url' %}
 {% assign active_language = page.lang | default: 'zh-CN' %}
 {% for code in language_codes %}{% if code == active_language %}{% assign nav_label = language_labels[forloop.index0] %}{% endif %}{% endfor %}
 <meta charset="UTF-8">
@@ -16,6 +17,7 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 {% for code in language_codes %}
 {% if code == 'zh-CN' %}{% assign translation_url = chinese_url %}{% else %}{% assign translation_url = '/ruaoc/' | append: code | append: '/' | append: document_name | append: '/' %}{% endif %}
+{% unless published_pages contains translation_url %}{% continue %}{% endunless %}
 <link rel="alternate" hreflang="{{ code }}" href="{{ translation_url | absolute_url }}">
 {% endfor %}
 <style>
@@ -33,6 +35,7 @@ em { color: #666; }
 <nav aria-label="{{ nav_label | default: 'Language' }}">
 {% for code in language_codes %}
 {% if code == 'zh-CN' %}{% assign translation_url = chinese_url %}{% else %}{% assign translation_url = '/ruaoc/' | append: code | append: '/' | append: document_name | append: '/' %}{% endif %}
+{% unless published_pages contains translation_url %}{% continue %}{% endunless %}
 {% unless forloop.first %} · {% endunless %}<a href="{{ translation_url | relative_url }}" lang="{{ code }}" hreflang="{{ code }}"{% if active_language == code %} aria-current="page"{% endif %}>{{ language_names[forloop.index0] }}</a>
 {% endfor %}
 </nav>

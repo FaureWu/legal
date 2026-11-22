@@ -19,7 +19,7 @@ Rua OC est une application de création et de gestion de personnages originaux u
 
 Elle propose un essai gratuit de 14 jours et un achat unique, sans compte propre à l’Application. Les principales fonctions créatives et le traitement des images fonctionnent sur votre Mac ; la synchronisation iCloud est facultative.
 
-**Les créations restent locales par défaut. Lorsque vous activez iCloud, les contenus sélectionnés et les éléments liés nécessaires sont transmis à la base privée du compte iCloud actuel. Ils ne sont pas envoyés à un serveur exploité par le développeur.** Les achats, leur restauration et la recherche de mises à jour utilisent Apple. L’Application n’est donc pas entièrement hors ligne et peut traiter des données personnelles.
+**Les créations restent locales par défaut. Lorsque vous activez iCloud, les contenus sélectionnés et les éléments liés nécessaires sont transmis à la base privée du compte iCloud actuel. Ils ne sont pas envoyés à un serveur exploité par le développeur.** Les achats et leur restauration font appel aux services d’Apple. L’Application n’est donc pas entièrement hors ligne et peut traiter des données personnelles.
 
 Cette politique décrit les traitements réels. Utiliser l’Application ne vaut pas consentement général à tous les traitements facultatifs.
 
@@ -48,7 +48,7 @@ Nous ne vendons pas de données personnelles, n’utilisons ni suivi publicitair
 
 ## 4. Synchronisation iCloud facultative
 
-La synchronisation est désactivée par défaut. Vous pouvez l’activer lors de la configuration initiale ou dans Réglages → Gestion des données, puis choisir tout ou une sélection. « Tout » inclut les contenus présents et futurs. Pour conserver les relations, des mondes, personnages, fiches et images liés peuvent être ajoutés ; les éléments inclus automatiquement sont affichés dans la sélection.
+La synchronisation est désactivée par défaut. Vous pouvez l’activer dans Réglages → Gestion des données, puis choisir tout ou une sélection. « Tout » inclut les contenus présents et futurs. Pour conserver les relations, des mondes, personnages, fiches et images liés peuvent être ajoutés ; les éléments inclus automatiquement sont affichés dans la sélection.
 
 Le contenu comprend textes, champs, images originales, miniatures, ressources de personnages et identifiants nécessaires. CloudKit le stocke dans la base privée de l’Application du compte iCloud système actuel, et non dans une base publique ou une fonction de publication à d’autres utilisateurs. Nous n’exploitons aucune interface d’administration permettant de parcourir à distance ces créations privées.
 
@@ -58,13 +58,11 @@ L’Application vérifie la disponibilité et les identifiants du compte, réagi
 
 Les informations réelles de santé, d’identité, de finances, de déplacements ou relatives aux enfants peuvent être sensibles. Évitez les saisies et synchronisations inutiles ; respectez, si nécessaire, les exigences de nécessité, d’autorisation et de consentement distinct. La synchronisation assure le stockage et la récupération entre appareils que vous choisissez ; une divulgation peut affecter la vie privée, la sécurité ou les intérêts financiers. Un utilisateur ne peut consentir au nom d’autrui au-delà de ses pouvoirs.
 
-## 5. Essai, achats et mises à jour
+## 5. Essai et achats
 
 Essai, achat unique, restauration et codes promotionnels utilisent Apple StoreKit. L’Application vérifie les transactions sur votre appareil pour calculer l’essai, déterminer l’accès et tenir compte des remboursements ou révocations. Elle peut vérifier au lancement, à l’activation et lors de changements de transaction. Restaurer demande à Apple une synchronisation des justificatifs, pouvant nécessiter réseau et authentification système, sans nouvel achat.
 
 Carte, facturation, mots de passe et codes sont traités dans les interfaces Apple. L’Application ne lit ni ne conserve ces saisies. Les achats ne sont pas synchronisés comme créations, inclus dans les paquets créatifs ou écrits dans les diagnostics. Le compte App Store peut différer du compte iCloud système.
-
-Automatiquement ou sur demande, l’Application consulte `itunes.apple.com` pour connaître la version publiée. La requête contient l’identifiant de boutique de l’Application, un code de région de boutique ou du système et la catégorie logicielle, sans création ni diagnostic. Le destinataire reçoit les informations habituelles de connexion, dont l’adresse IP. Résultats et dates de vérification sont mis en cache localement ; les liens ouvrent la boutique ou le site Apple.
 
 Les traitements Apple de compte, paiement, transaction et sécurité relèvent de sa [politique de confidentialité](https://www.apple.com/legal/privacy/) et de ses conditions applicables.
 
@@ -73,7 +71,8 @@ Les traitements Apple de compte, paiement, transaction et sécurité relèvent d
 - **Importation et exportation :** l’Application lit ou écrit les images, ressources et paquets en réponse à votre sélection, glisser-déposer ou enregistrement. Importer une image ne demande pas l’accès à toute la photothèque système.
 - **Presse-papiers :** le texte est lu lors d’un collage pour édition, sans balayage continu en arrière-plan.
 - **Pointeur :** positions et événements servent localement au survol, déplacement, parallaxe et mouvement des personnages, sans historique comportemental envoyé.
-- **Surveillance de l’entrée :** les réactions au clavier utilisent la position physique des touches et les modificateurs pour déclencher des gestes et afficher brièvement des libellés. Elles ne lisent pas le texte composé par les méthodes de saisie et ne conservent ni n’envoient de journal de frappe. La réaction est activée par défaut et la restriction à l’Application désactivée ; répondre aux touches dans d’autres applications exige néanmoins votre autorisation macOS explicite. Sans elle, la réponse reste interne. La fonction se suspend pendant la saisie sécurisée et la surveillance s’arrête lorsque le personnage est masqué.
+- **Surveillance de l’entrée :** les réactions au clavier utilisent la position physique des touches et les modificateurs pour déclencher des gestes et afficher brièvement des libellés. Elles ne lisent pas le texte composé par les méthodes de saisie et ne conservent ni n’envoient de journal de frappe. La réaction est activée par défaut et limitée à Rua OC. Pour l’utiliser dans les autres apps, choisissez « Tout le système » et autorisez vous-même Rua OC dans la rubrique Surveillance de l’entrée des Réglages Système de macOS. Sans elle, la réponse reste interne. La fonction se suspend pendant la saisie sécurisée et la surveillance s’arrête lorsque le personnage est masqué.
+- **Accès au son du système :** Une fois le suivi musical activé dans Réglages → Personnage de bureau, le point d’interrogation explique comment autoriser manuellement l’accès à l’audio du système. Rua OC commence à lire l’audio du système dès que la fonction est activée et qu’un personnage est visible sur le bureau. Si l’autorisation n’a pas encore été accordée, macOS peut vous la demander à ce moment-là. Rua OC détecte le rythme et les voix sur ce Mac. L’app n’utilise ni le micro ni l’image de l’écran. L’audio n’est ni conservé, ni transmis, ni synchronisé, ni transcrit. La capture s’arrête dès que vous désactivez la fonction ou masquez le personnage. Vous pouvez retirer l’autorisation à tout moment dans Confidentialité et sécurité → Enregistrement de l’écran et de l’audio du système dans macOS. Les autres fonctions locales restent accessibles sans cette autorisation.
 - **Ouverture à la connexion :** elle utilise les éléments d’ouverture macOS, désactivables dans l’Application ou le système, sans nouvel envoi de données.
 
 Réglages → Personnage de bureau permet d’arrêter ou limiter la réaction au clavier. L’autorisation se retire dans Réglages Système macOS → Confidentialité et sécurité → Surveillance de l’entrée. Le refus n’empêche pas la création locale. Les accès aux fichiers dépendent de macOS et de vos actions ; tous n’ont pas de commutateur distinct.
@@ -92,7 +91,7 @@ N’envoyez pas de pièces d’identité, mots de passe ou données d’enfants 
 
 ## 8. Prestataires, communication et régions
 
-La synchronisation utilise le prestataire applicable au compte iCloud système actuel ; achats et mises à jour utilisent Apple. Nous ne fournissons pas les créations aux annonceurs ou courtiers en données. Les destinations d’export, autres espaces cloud, messageries et destinataires choisis appliquent leurs propres règles aux fichiers remis.
+La synchronisation utilise le prestataire applicable au compte iCloud système actuel. Les achats et leur restauration font appel aux services d’Apple. Nous ne fournissons pas les créations aux annonceurs ou courtiers en données. Les destinations d’export, autres espaces cloud, messageries et destinataires choisis appliquent leurs propres règles aux fichiers remis.
 
 Pour iCloud exploité par GCBD en Chine continentale, le prestataire est **AIPO Cloud (Guizhou) Technology Co. Ltd. (云上艾珀（贵州）技术有限公司, Guizhou, Chine)**. Ailleurs, l’entité applicable peut être Apple Inc. (États-Unis), Apple Canada Inc. (Canada), Apple Services LATAM LLC (États-Unis), Apple Services Pte. Ltd. (Singapour), iTunes K.K. (Japon), Apple Pty Limited (Australie) ou Apple Distribution International Ltd. (Irlande). Voir la répartition dans les [conditions iCloud](https://www.apple.com/legal/internet-services/icloud/). L’Application ne lit ni ne vérifie la région de service du compte.
 
@@ -104,7 +103,7 @@ Les documents sont hébergés par GitHub Pages et ouverts dans le navigateur par
 
 ## 9. Sécurité
 
-Stockage et réseau système, bases privées CloudKit, détection des changements de compte, intégrité et limitation des champs de diagnostic réduisent les risques. Les recherches de version utilisent HTTPS. Les mécanismes Apple régissent la transmission, le stockage et la sécurité de ses comptes.
+Stockage et réseau système, bases privées CloudKit, détection des changements de compte, intégrité et limitation des champs de diagnostic réduisent les risques. Les mécanismes Apple régissent la transmission, le stockage et la sécurité de ses comptes.
 
 Les bases locales et exports n’ont pas de chiffrement par mot de passe propre à l’Application. La protection du transport ne chiffre pas nécessairement les fichiers exportés. Utilisez appareils fiables, protection du compte macOS, FileVault, sauvegardes et sécurité iCloud, et choisissez soigneusement les destinataires.
 
@@ -145,7 +144,7 @@ Ailleurs, les règles locales de protection des enfants s’appliquent. Pour les
 
 Nous actualisons version et date selon les fonctions et traitements. Les changements importants sont communiqués dans l’Application ou par un moyen approprié conformément à la loi. Si de nouveaux buts, méthodes ou catégories nécessitent un nouveau consentement, nous le recueillons séparément ; publication ou utilisation continue ne le remplace pas.
 
-Les versions en chinois simplifié, anglais, japonais, coréen, allemand et français doivent rester cohérentes. Nous expliquons et corrigeons les écarts de traduction sans diminuer vos droits légaux.
+Les versions en chinois simplifié, chinois traditionnel, anglais, japonais, coréen, allemand et français doivent rester cohérentes. Nous expliquons et corrigeons les écarts de traduction sans diminuer vos droits légaux.
 
 ## 13. Contact
 
